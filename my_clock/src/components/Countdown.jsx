@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 function Countdown() {
     const [time, setTime]=useState();
     useEffect(()=>{
-        let countDownDate=new Date("Jan 1, 2021 00:00:00").getTime();
+        let countDownDate=new Date("Jan 1, 2022 00:00:00").getTime();
         let x=setInterval(()=>{
             let now =new Date().getTime();
             let distance = countDownDate - now;
