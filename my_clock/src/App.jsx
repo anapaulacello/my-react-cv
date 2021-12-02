@@ -5,9 +5,10 @@ import { DigitalClock,Countdown,Stopwatch } from './components';
 function App() {
   return (
     <div className="App">
-        <DigitalClock></DigitalClock>
+        <h1 className="app_title">呪術廻戦</h1>
         <Countdown></Countdown>
-        <Stopwatch></Stopwatch>
+        <DigitalClock></DigitalClock>
+       {/*  <Stopwatch></Stopwatch> */}
     </div>
   );
 }

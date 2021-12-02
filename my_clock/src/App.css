@@ -1,0 +1,14 @@
+.App{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.69),rgba(0, 0, 0, 0.69)),url("https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2021/11/Jujtsu-Kaisen-0.jpg?fit=1600%2C1134&ssl=1");
+    min-height:100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_title{
+    color:white;
+    font-size: 100px;
+}

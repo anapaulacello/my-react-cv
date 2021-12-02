@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
+import "./Countdown.css"
 
 function Countdown() {
     const [time, setTime]=useState();
     useEffect(()=>{
-        let countDownDate=new Date("Jan 1, 2022 00:00:00").getTime();
+        let countDownDate=new Date("Dec 24, 2021 00:00:00").getTime();
         let x=setInterval(()=>{
             let now =new Date().getTime();
             let distance = countDownDate - now;
@@ -21,7 +22,7 @@ function Countdown() {
     },[]);
     return (
         <div>
-            <h2>{time}</h2>
+            <h2 className="countdown_title">{time}</h2>
         </div>
     )
 }
